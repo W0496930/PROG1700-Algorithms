@@ -50,6 +50,7 @@ while True:
             print("Rock smashes scissors! You lose.")
     
     #Ask the user if they want to play again using the "play_again" variable
-    play_again = input("play again? (yes/no): ")   
+    play_again = input("Play Again? (Yes/No): ")   
     if play_again.lower()   != "yes":
-        break   
+        print("Thanks for playing!")
+        break
