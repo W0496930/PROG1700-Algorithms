@@ -1,4 +1,4 @@
- #Author: William Taylor      
+#Author: William Taylor      
  #Student ID: W0496930      
  #Course: PROG1700
  #Date: 10/04/23
@@ -51,6 +51,8 @@ while True:
     
     #Ask the user if they want to play again using the "play_again" variable
     play_again = input("Play Again? (Yes/No): ")   
+    
+    #if user selects "No" then stop the program with the break function, if "Yes" continue the loop
     if play_again.lower()   != "yes":
         print("Thanks for playing!")
         break
