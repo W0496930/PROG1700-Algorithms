@@ -15,10 +15,15 @@ import random
 #Variables
 possible_actions = ["rock", "paper", "scissors"]
 computer_action = random.choice(possible_actions)
+
 #Program Control 
 while True:
     user_action = input("Enter your choice! (Rock, Paper, Scissors)").lower()
     
+    #Variables
+    possible_actions = ["rock", "paper", "scissors"]
+    computer_action = random.choice(possible_actions)
+   
     #Validate the input to see if the user input rock paper or scissors
     while user_action not in possible_actions:
         print("Invalid input. Please enter Rock, Paper, or Scissors.")
@@ -43,5 +48,8 @@ while True:
             print("Scissors cuts paper! You win!")
         else:
             print("Rock smashes scissors! You lose.")
-
     
+    #Ask the user if they want to play again using the "play_again" variable
+    play_again = input("play again? (yes/no): ")   
+    if play_again.lower()   != "yes":
+        break   
