@@ -2,7 +2,7 @@
 #Student ID: W0496930      
 #Course: PROG1700
 #Date: 10/16/23
-#Project: Guessing Gmae
+#Project: PROG1700_<W0496930>_Guessing_Game.py
 #Repository:https://github.com/W0496930/PROG1700-Algorithms
 #PROG1700-Algorithms
 #Programming language: Python 3
